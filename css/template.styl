@@ -1,0 +1,1714 @@
+@import 'normalize.styl';
+@import 'mixins.styl';
+@import 'slider.styl';
+@import 'typo.styl';
+button,[type="submit"],[type="button"],[type="reset"]
+  cursor pointer
+ul.menu,ul.menu ul,ul.nolist,.slideshow ul,.pagination ul,ul.breadcrumb
+  margin 0
+  padding 0
+  list-style none
+.c-table tr td,.c-table tr th
+  border 1px #ccc solid
+  padding 2px 4px
+.c-table
+  &:after
+    content ''
+    display block
+    width 100%
+    height 1px
+    clear both
+    margin-bottom 17px
+img
+  max-width 100%
+hr
+  margin 0
+  padding 0
+  border none
+  width 100%
+  height 1px
+  background #ccc
+  margin-bottom 18px
+a
+  color #64a104
+a:hover
+  text-decoration none
+*
+  box-sizing border-box
+*:before,
+*:after
+  box-sizing border-box
+.img-responsive
+  display block
+  max-width 100%
+  height auto
+.img-rounded
+  border-radius 6px
+.img-thumbnail
+  padding 4px
+  line-height 1.42857143
+  background-color #ffffff
+  border 1px solid #dddddd
+  border-radius 4px
+  transition all 0.2s ease-in-out
+  display inline-block
+  max-width 100%
+  height auto
+.circle
+  border-radius 50%
+.clr,.clearfix
+  clear both
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after
+  content " "
+  display table
+.clearfix:after,
+.container:after
+  clear both
+.block
+  width 100%
+  float left
+.block:before,
+.block:after
+  content " "
+  display table
+.block:after
+  clear both
+.btn
+  display inline-block
+  font-family 'Segoe UI'
+  color #fff
+  background #4ac54a
+  padding 12px 22px
+  font-size 12px
+  font-weight bold
+  text-transform uppercase
+  text-decoration none
+  border none
+  outline none
+  border-radius 4px
+  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.1)
+  transition all ease .5s
+  &:hover
+    background #53d753
+  &:active
+    box-shadow inset 0px 0px 9px 0px rgba(0, 0, 0, 0.5)
+.btn-yellow
+  color #2f2d18
+  background #f4e034
+  &:hover
+    background #ffed4f
+input[type='text'],input[type='tel'],input[type='email'],select, textarea
+  border 1px #dfdfdf solid
+  padding 12px 22px
+  outline none
+  border-radius 4px
+html
+  height 100%
+body
+  font 16px/21px fontFam, sans-serif
+  color #363636
+  width 100%
+  max-width 100%
+  height 100%
+  position relative
+  min-width 1230px
+.clr,
+.clearfix
+  clear both
+.container
+  margin 0 auto
+  width 1250px
+  padding-left 15px
+  padding-right 15px
+.container-fluid
+  margin 0 auto
+  padding-left 15px
+  padding-right 15px
+.row
+  margin-left -15px
+  margin-right -15px
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12
+  position relative
+  min-height 1px
+  padding-left 15px
+  padding-right 15px
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12
+  float left
+.col-lg-12
+  width 100%
+.col-lg-11
+  width 91.66666667%
+.col-lg-10
+  width 83.33333333%
+.col-lg-9
+  width 75%
+.col-lg-8
+  width 66.66666667%
+.col-lg-7
+  width 58.33333333%
+.col-lg-6
+  width 50%
+.col-lg-5
+  width 41.66666667%
+.col-lg-4
+  width 33.33333333%
+.col-lg-3
+  width 25%
+.col-lg-2
+  width 16.66666667%
+.col-lg-1
+  width 8.33333333%
+
+.wrapper
+  width 100%
+  min-height 100%
+  height auto !important
+  height 100%
+  margin 0
+  padding 0
+.header
+  padding 24px 0 27px 0
+  .container
+    position relative
+.logo
+  float left
+.btn-gager
+  float left
+  margin 12px 0 0 242px
+  padding 12px 38px
+.opening
+  float left
+  margin 12px 0 0 112px
+  padding 0 0 0 40px
+  font-size 22px
+  background url(../images/clock.png) no-repeat left top
+.opening-hours
+  font-size 22px
+  color #373737
+  sup
+    top -8px
+    font-size 50%
+.opening-daily
+  font-size 13px
+  line-height 16px
+  color #686868
+.callback
+  float right
+  margin 12px 0 0 0
+  padding 0 0 0 42px
+  background url(../images/phone.png) no-repeat left top
+.callback-phone
+  color #373737
+  font-size 22px
+  line-height 24px
+  font-weight 600
+  text-decoration none
+  a
+    text-decoration none
+.callback-btn
+  margin 7px 0 0 0
+  border 1px #e9e9e9 solid
+  border-bottom 2px #4ac54a solid
+  outline none
+  background #fff
+  color #3eb43e
+  font-size 10px
+  line-height 24px
+  font-weight bold
+  text-transform uppercase
+  padding 0 12px
+  border-radius 4px
+  transition all ease .5s
+  &:hover
+    background #4ac54a
+    color #fff
+  &:active
+    box-shadow inset 0px 0px 9px 0px rgba(0, 0, 0, 0.5)
+a.login
+  position absolute
+  top -24px
+  right 10px
+  font-size 13px
+  color #686868
+  text-decoration none
+.topmenu
+  background #f4f4f4
+  height 56px
+  line-height 56px
+  text-transform uppercase
+  font-size 13px
+  font-weight 600
+  color #363636
+  ul
+    text-align justify
+    width 100%
+    &:after
+      content ""
+      display inline-block
+      margin-left 100%
+    li
+      display inline-block
+      line-height 51px
+      &.active,&:hover
+        border-bottom 3px #4ac54a solid
+      &.first a,&:first-child a
+        padding-left 0
+      &.last a,&:last-child a
+        padding-right 0
+      a
+        display block
+        text-decoration none
+        color #363636
+        padding 0 19px
+        position relative
+        &.sales
+          color #4ed14e
+          font-weight bold
+          &:before,&:after
+            content ''
+            width 11px
+            height 11px
+            display inline-block
+            background url(../images/sales-link.png)
+          &:before
+            margin 0 10px 0 0
+          &:after
+            margin 0 0 0 10px
+.slideshow
+  height 455px
+  overflow hidden
+  .container
+    position relative
+.slideshow-img
+  display block
+  margin 0 auto
+  position relative
+  z-index 1
+.slideshow-text
+  position absolute
+  top 70px
+  left 134px
+  z-index 2
+.slideshow-label
+  font-size 24px
+  font-weight 600
+  color #2f2d18
+  text-transform uppercase
+  margin 0 0 14px 0
+.slideshow-title
+  font-size 36px
+  line-height 36px
+  font-weight 600
+  color #2f2d18
+  padding 20px 25px 24px 25px
+  margin 0 0 30px -25px
+  background #f4e034
+  border-radius 3px
+ul.slideshow-list
+  margin 0 0 45px 0
+  line-height 19px
+ul.slideshow-list li
+  margin 12px auto
+  padding-left 20px
+  background url(../images/slideshow-li.png) no-repeat left 4px
+ul.slideshow-list.inlinelist li
+  display inline-block
+  margin-right 25px
+ul.slideshow-list.inlinelist li span
+  display block
+  width 100%
+.slideshow-biggreen
+  display block
+  width 100%
+  font-size 26px
+  line-height 29px
+  color #34a834
+.slideshow-special
+  font-size 24px
+.btn-white
+  color #3eab3e
+  font-size 12px
+  font-weight bold
+  text-decoration none
+  text-transform uppercase
+  border 2px #3eab3e solid
+  padding 10px 70px 12px
+  border-radius 3px
+  transition all ease 0.5s
+  &:hover
+    color #fff
+    border-color #53d753
+    background #53d753
+  &:active
+    box-shadow inset 0px 0px 9px 0px rgba(0,0,0,0.5)
+.balcony-gift
+  position absolute
+  z-index 3
+  left 315px
+  top 185px
+  width 105px
+  height 105px
+  background url(../images/balcony-gift.png)
+.installment-icon
+  position absolute
+  z-index 3
+  left 280px
+  top 215px
+  width 101px
+  height 101px
+  background url(../images/installment-in-slide.png)
+.top-products
+  margin 20px 0 0 0
+.top-products-item
+  float left
+  position relative
+  width 293px
+  height 92px
+  overflow hidden
+  margin 0 0 0 16px
+  color #363636
+  &:hover
+    box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.1)
+    transition all ease .5s
+.top-products-item.first,.top-products-item:first-child
+  margin 0 0 0 0
+.top-products-img
+  position relative
+  z-index 1
+.top-products-text
+  display block
+  position absolute
+  z-index 2
+  left 7px
+  top 7px
+  width 279px
+  height 78px
+  padding 18px 0 0 100px
+  border 1px rgba(255,255,255,0.5) solid
+  transition all ease .5s
+.top-products-item:hover .top-products-text
+  border-color transparent
+.top-products-title
+  display block
+  font-weight 600
+.top-products-price
+  display block
+  font-size 13px
+  line-height 16px
+.main
+  margin 60px 0 0 0
+  padding 0 0 440px
+.page
+  width 863px
+  float right
+.welcome
+  text-align center
+  font-size 20px
+  line-height 23px
+  font-weight 300
+  color #000
+  padding 0 140px 60px
+  margin 0 0 50px 0
+  background url(../images/logo-sm.png) no-repeat center bottom
+.windows
+  width 100%
+  float left
+  margin 0 0 35px 0
+.js-tabs
+  width 100%
+  float left
+  background #f9f9f9
+  ul.tabs-list
+    margin 0
+    padding 0
+    width 100%
+    list-style none
+    display table
+    border-collapse collapse
+    border-top 4px #e2e2e2 solid
+    li.js-tabs-item
+      cursor pointer
+      display table-cell
+      position relative
+      padding 18px 10px
+      text-align center
+      border-left 1px #e2e2e2 solid
+      border-right 1px #e2e2e2 solid
+      color #808080
+      font-weight bold
+      text-transform uppercase
+      &.first,&:first-child
+        border-left-color transparent
+      &.last,&:last-child
+        border-right-color transparent
+      &:hover
+        color #79a300
+      &.active
+        border-left-color transparent
+        border-right-color transparent
+        color #79a300
+        background rgb(228, 249, 252)
+        background -moz-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+        background -webkit-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+        background -o-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+        background -ms-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+        background linear-gradient(180deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+        &:before
+          content ''
+          display block
+          position absolute
+          top -4px
+          left 0
+          width 100%
+          height 4px
+          background #4ac54a
+        &:after
+          content ''
+          width 0
+          height 0
+          position absolute
+          top 0
+          left 50%
+          margin-left -6px
+          border-left 6px solid transparent
+          border-right 6px solid transparent
+          border-top 6px solid #4ac54a
+      &.afterCurrent
+        border-left-color transparent
+      &.beforeCurrent
+        border-right-color transparent
+.windows-tabs-content
+  width 100%
+  float left
+  padding 30px 50px
+.windows-content-item
+  display none
+.windows-content-item:first-child
+  display block
+.windows-content-imgwrap
+  width 363px
+  float left
+  text-align center
+.windows-content-img
+  max-height 430px
+.windows-content-text
+  float right
+  width 400px
+.windows-content-title
+  font-size 20px
+  line-height 23px
+  font-weight 600
+  margin 25px 0 35px
+.windows-content-list
+  list-style none
+  margin 0 0 20px 0
+  padding 0
+  font-size 15px
+  line-height 19px
+  li
+    padding 0 0 0 36px
+    min-height 21px
+    margin 10px 0
+    background url(../images/windows-li.png) no-repeat left top
+  strong
+    color #000
+    font-weight 600
+.windows-content-link
+  display inline-block
+  font-size 14px
+  color #4c4c4c
+  margin 0 0 0 36px
+.windows-content-price
+  margin 45px 0 0 0
+  font-size 24px
+  color #64a104
+.btn-group
+  text-align center
+  margin 0 0 70px 0
+.btn-calc,.btn-gager-big
+  padding 16px 65px
+  margin 0 33px
+.other-services
+  text-align center
+  padding 50px 0 35px
+  margin 0 0 60px 0
+  background #f9f9f9
+  width 100%
+  float left
+.other-services-item
+  display inline-block
+  vertical-align top
+  width 248px
+  min-height 202px
+  margin 0 12px 35px
+  position relative
+  transition all linear .2s
+.other-services-itemHover
+  display block
+  width 248px
+  position absolute
+  top 0
+  left 0
+  padding 0
+  background #fff
+  overflow hidden
+  text-decoration none
+  color #363636
+  border-radius 4px
+  transition all linear .2s
+  &:hover
+    width 278px
+    left -15px
+    top -13px
+    box-shadow 5px 5px 20px 0px rgba(0, 0, 0, 0.11)
+.other-services-item-img
+  float left
+.other-services-item-title
+  font-size 14px
+  display block
+  width 100%
+  float left
+  padding 12px 0 14px
+.other-services-itemHover:hover .other-services-item-title
+  padding 15px 0 17px
+.other-services-item-price
+  display none
+  position absolute
+  top 10px
+  right 11px
+  font-size 13px
+  font-weight 600
+  color #2f2d18
+  padding 5px 8px 7px 10px
+  background #f4e034
+  border-radius 4px 4px 4px 20px
+.other-services-itemHover:hover .other-services-item-price
+  display block
+.other-services-else
+  font-weight 300
+.calculators
+  margin 0 0 60px 0
+  text-align center
+  width 100%
+  float left
+.calc-item
+  display block
+  float left
+  margin 0
+  width 20%
+  padding 30px 10px
+  &:hover
+    box-shadow 0px 7px 20px 0px rgba(0, 0, 0, 0.11)
+.calc-item-title
+  font-size 14px
+  line-height 16px
+  margin 21px 0
+.calc-item-img
+  height 82px
+.calc-plastic-window
+  background url(../images/icon1.png) no-repeat top center
+.calc-item:hover .calc-plastic-window
+    background url(../images/icon1.png) no-repeat bottom center
+.calc-wood-window
+  background url(../images/icon2.png) no-repeat top center
+.calc-item:hover .calc-wood-window
+    background url(../images/icon2.png) no-repeat bottom center
+.calc-balcony
+  background url(../images/icon3.png) no-repeat top center
+.calc-item:hover .calc-balcony
+    background url(../images/icon3.png) no-repeat bottom center
+.calc-window-house
+  background url(../images/icon4.png) no-repeat top center
+.calc-item:hover .calc-window-house
+    background url(../images/icon4.png) no-repeat bottom center
+.calc-balcony-house
+  background url(../images/icon5.png) no-repeat top center
+.calc-item:hover .calc-balcony-house
+    background url(../images/icon5.png) no-repeat bottom center
+.installment
+  display block
+  margin 0 0 80px 0
+  width 100%
+  height 154px
+  padding 9px
+  text-decoration none
+  position relative
+  overflow hidden
+  color #fff
+  background #42b842
+  border-radius 4px
+.installment-wrap
+  display block
+  width  100%
+  height 136px
+  border 1px #60e760 solid
+  position relative
+  z-index 1
+  border-radius 3px
+.installment-deformbg
+  display block
+  position absolute
+  z-index 2
+  top -200px
+  left -100px
+  width 500px
+  height 500px
+  background #32a432
+  transform rotate(30deg)
+.installment-title
+  display block
+  position absolute
+  top 28px
+  left 64px
+  z-index 3
+  font-size 38px
+  line-height 41px
+  font-weight 300
+.installment-btn
+  display block
+  position absolute
+  top 86px
+  left 64px
+  z-index 3
+  font-size 14px
+  border 1px #45ca45 solid
+  padding 4px 15px 6px
+  border-radius 3px
+.installment-text
+  display block
+  width 320px
+  position absolute
+  top 20px
+  right 5px
+  z-index 4
+.installment-line
+  display block
+  width 100%
+  font-size 18px
+  line-height 29px
+.installment-col-1
+  display block
+  float left
+  width 160px
+  font-size 18px
+  line-height 29px
+  text-align right
+  padding 0 15px 0 0
+.installment-col-2
+  display block
+  float left
+  width 160px
+  font-weight bold
+  text-align left
+.mission
+  position relative
+  width 100%
+  height 501px
+  margin 0 0 65px 0
+  color #fff
+  text-align center
+  background url(../images/mission-bg.jpg) no-repeat top center
+  h2
+    font-size 40px
+    line-height 43px
+    margin 0 0 40px 0
+.mission-wrap
+  padding 60px
+.video-btn
+  cursor pointer
+  display inline-block
+  color #b1b1b1
+  font-size 11px
+  text-transform uppercase
+  padding-top 85px
+  margin 0 0 10px 0
+  background url(../images/play.png) no-repeat top center
+.mission-text
+  font-size 22px
+  line-height 30px
+  font-weight 300
+  margin 0 0 55px 0
+.mission-video-label
+  font-size 18px
+#companyVideo
+  display none
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 501px
+.video-close
+  cursor pointer
+  display none
+  position relative
+  top -50px
+  width 150px
+  margin 0 auto
+  text-align center
+  color #b1b1b1
+  font-size 11px
+  text-transform uppercase
+.reasons
+  width 100%
+  float left
+  margin 0 0 60px 0
+.reasons-img-wrap
+  float left
+  max-width 350px
+  max-height 350px
+  padding 25px
+.reasons-item-desc
+  float right
+  width 475px
+  padding-right 25px
+.reasons-item-num
+  margin 5px 0 40px 0
+  font-family Arial
+  font-size 22px
+  color #64a104
+  width 46px
+  height 46px
+  line-height 46px
+  text-align center
+  position relative
+  &:before,&:after
+    content ''
+    display block
+    width 23px
+    height 23px
+    position absolute
+  &:before
+    border-top 1px #d2d2d2 solid
+    border-right 1px #d2d2d2 solid
+    right -1px
+    top -1px
+  &:after
+    border-bottom 1px #d2d2d2 solid
+    border-left 1px #d2d2d2 solid
+    left -1px
+    bottom -1px
+.reasons-num-arrow
+  width 16px
+  height 16px
+  position absolute
+  top -4px
+  right -4px
+  border-top 1px #ececec solid
+  border-right 1px #ececec solid
+.reasons-item-title
+  font-size 34px
+  line-height 38px
+  color #4ac54a
+  font-weight 300
+.reasons-item-text
+  margin 28px 0 0 0
+.reasons .slick-arrow,.maingallery .slick-arrow
+  width 46px
+  height 46px
+  top auto
+  bottom -20px
+  margin 0
+  background #fff
+.reasons .slick-prev,.maingallery .slick-prev
+  left 50%
+  margin 0 0 0 -46px
+  border 1px #ededed solid
+  transform rotate(0)
+  &:after
+    content ''
+    display block
+    width 10px
+    height 10px
+    position absolute
+    top 50%
+    left 50%
+    margin-left -2px
+    margin-top -5px
+    border-top 1px #9c9c9c solid
+    border-left 1px #9c9c9c solid
+    transform rotate(-45deg)
+  &:hover
+    background #4ac54a
+    border 1px #4ac54a solid
+    &:after
+      border-color #fff
+.reasons .slick-next,.maingallery .slick-next
+  right 50%
+  margin 0 -46px 0 0
+  border 1px #f7f7f7 solid
+  transform rotate(0)
+  background #f7f7f7
+  &:after
+    content ''
+    display block
+    width 10px
+    height 10px
+    position absolute
+    top 50%
+    left 50%
+    margin-left -6px
+    margin-top -5px
+    border-top 1px #9c9c9c solid
+    border-right 1px #9c9c9c solid
+    transform rotate(45deg)
+  &:hover
+    background #4ac54a
+    border 1px #4ac54a solid
+    &:after
+      border-color #fff
+.maingallery
+  margin 0 0 120px 0
+.maingallery .slick-list
+  width 100%
+  height 504px
+  overflow hidden
+.maingallery .slick-arrow
+  bottom -60px
+.maingallery-item
+  border-radius 4px
+  &:before
+    content ''
+    display block
+    width 843px
+    height 484px
+    position absolute
+    left 10px
+    top 10px
+    border 1px rgba(255,255,255,0.5) solid
+    border-radius 2px
+.tour3d,.video-reviews
+  width 382px
+  text-align center
+.tour3d
+  float left
+.video-reviews
+  float right
+.tour3d-link,.video-reviews-link
+  display block
+  position relative
+  border-radius 4px
+  img
+    position relative
+    z-index 1
+  .btn-look
+    position absolute
+    z-index 2
+    top 50%
+    left 50%
+    height 40px
+    line-height 40px
+    padding 0
+    width 126px
+    margin-top -20px
+    margin-left -63px
+.leftbar
+  width 307px
+  float left
+.bigmenu
+  background #fafafb
+  border 1px #eaeaea solid
+  padding 24px
+  margin 0 0 45px 0
+  position relative
+.latch
+  position absolute
+  width 14px
+  height 30px
+  border 1px #f1f1f1 solid
+  top 50%
+  margin-top -15px
+  right 5px
+  box-shadow 1px 1px 2px 0px rgba(100, 100, 100, 0.2)
+.handle
+  background #fff
+  position absolute
+  width 8px
+  height 60px
+  border 1px #f1f1f1 solid
+  top 8px
+  left 2px
+  box-shadow 1px 1px 2px 0px rgba(100, 100, 100, 0.2)
+  border-radius 3px
+.bigmenu-wrap
+  padding 4px
+  border 1px #f1f1f1 solid
+  box-shadow 0px 0px 4px 0px rgba(100, 100, 100, 0.2)
+.bigmenu-wrap-wrap
+  border 2px #dddedf solid
+  background url(../images/sidebar-menu-bg.png)
+.menublock
+  margin 0
+.menublock-title
+  color #666666
+  font-weight bold
+  text-transform uppercase
+  padding 0 18px
+  margin 30px 0 15px 0
+.menublock-content
+  margin 0 0 25px 0
+  padding 0
+  list-style none
+  li
+    font-size 13px
+    line-height 16px
+.menublock-content>li>a
+  color #4c4c4c
+  text-decoration none
+  display block
+  padding 5px 18px 7px 38px
+  position relative
+  &:before
+    content ''
+    display block
+    width 8px
+    height 8px
+    position absolute
+    top 50%
+    margin-top -4px
+    left 18px
+    background url(../images/sidebar-menu-li.png) top
+.menublock-content>li:hover>a,.menublock-content>li>a:hover
+  background #edebeb
+.menublock-content>li.active>a
+  font-weight 600
+  color #fff
+  background #4ac54a
+  &:before
+    background url(../images/sidebar-menu-li.png) bottom
+.menublock-content>li.parent-active>a
+  font-weight 600
+  color #000
+  background #fff
+.menublock-content>li>ul
+  background #fff
+  margin 0 0 7px 0
+  padding 7px 0
+  list-style none
+.menublock-content>li>ul>li
+  font-size 13px
+  line-height 16px
+.menublock-content>li>ul>li>a
+  color #4c4c4c
+  text-decoration none
+  display block
+  padding 5px 18px 7px 38px
+.menublock-content>li>ul>li>a:hover
+  color #4ac54a
+.menublock-content>li.active>ul>li.active>a,.menublock-content>li>ul>li.active>a
+  background #4ac54a
+  color #fff
+  font-weight 600
+.search-block
+  position relative
+  width 100%
+  height 40px
+  margin 0 0 40px 0
+.search-input
+  position relative
+  z-index 1
+  width 100%
+  height 40px
+  line-height 40px
+  border
+.search-btn
+  position absolute
+  z-index 2
+  right 0
+  top 0
+  height 40px
+  line-height 40px
+  padding 0 30px
+.leftbar-block-title
+  font-size 18px
+  font-weight 600
+  color #666
+  text-align center
+  margin 0 0 25px 0
+.payment-methods
+  text-align center
+  margin 0 0 40px 0
+.payment-method
+  display inline-block
+  font-size 12px
+  line-height 14px
+  font-weight 600
+  text-decoration none
+  color #666
+  padding 40px 0 0 0
+  max-width 66px
+  vertical-align top
+a.cash
+  background url(../images/cash.png) no-repeat top center
+a.cards
+  margin 0 45px
+  background url(../images/cards.png) no-repeat top center
+a.qiwi
+  background url(../images/qiwi.png) no-repeat top center
+.bordered
+  position relative
+  border 1px #eaeaea solid
+  padding 30px 20px
+  margin 0 0 55px 0
+  border-radius 4px
+  .leftbar-block-title
+    width 100%
+    position absolute
+    left 0
+    top -13px
+    margin 0
+  .leftbar-block-title-wrap
+    background #fff
+    padding 0 20px
+    display inline-block
+.certificates
+  text-align center
+  a
+    display inline-block
+    vertical-align top
+    margin 0 6px
+.chronicle
+  a
+    display inline-block
+    vertical-align top
+.video-link
+  display block
+  position relative
+.video-img
+  position relative
+  z-index 1
+.video-icon
+  display block
+  width 38px
+  height 38px
+  position absolute
+  z-index 2
+  left 50%
+  top 50%
+  margin-left -19px
+  margin-top -19px
+  background url(../images/video.png)
+.link-all
+  width 100%
+  position absolute
+  left 0
+  bottom -6px
+  font-size 13px
+  font-weight 600
+  text-align center
+.link-all-wrap
+  color #4ac54a
+  text-decoration none
+  display inline-block
+  padding 0 7px
+  background #fff
+.youtube-channel
+  display block
+  width 100%
+  height 64px
+  line-height 64px
+  font-size 12px
+  font-weight 600
+  color #fff
+  text-transform uppercase
+  text-decoration none
+  border 1px #eaeaea solid
+  padding 0 0 0 90px
+  margin 0 0 55px 0
+  border-radius 4px
+  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.1)
+  transition all ease .5s
+  background url(../images/youtube.png) no-repeat 15px center
+  span
+    display block
+    height 64px
+    text-align center
+    margin -1px 0 0 0
+    background #de2c28
+    border-radius 0 4px 4px 0
+.reviews-item-author
+  font-size 14px
+  font-weight 600
+  color #4ac54a
+  margin 0 0 8px 0
+.reviews-item-text
+  font-size 14px
+  line-height 16px
+  font-style italic
+  color #666
+.reviews-item
+  padding 0 5px 0 55px
+  margin 30px 0 0 0
+  background url(../images/reviews.png) no-repeat 5px 31px
+.reviews-item.first,.reviews-item:first-child
+  margin 0
+.reviews-item-text.expanding
+  display none
+.reviews-item-more
+  position relative
+  cursor pointer
+  font-size 11px
+  color #929191
+  border-bottom 1px #929191 dashed
+  &:after
+    content '‹'
+    display inline-block
+    position absolute
+    right -10px
+    top -2px
+    font-size 17px
+    transform rotate(-90deg)
+.reviews-item-more.on:after
+  right -15px
+  top -2px
+  transform rotate(90deg)
+.audio-reviews
+  display block
+  width 100%
+  height 64px
+  line-height 64px
+  font-size 12px
+  font-weight 600
+  color #fff
+  text-transform uppercase
+  text-decoration none
+  border 1px #eaeaea solid
+  padding 0 0 0 90px
+  margin 0 0 55px 0
+  border-radius 4px
+  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.1)
+  transition all ease .5s
+  background url(../images/audio-reviews.png) no-repeat 29px center
+  span
+    display block
+    height 64px
+    text-align center
+    margin -1px 0 0 0
+    background #4ac54a
+    border-radius 0 4px 4px 0
+.order
+  height 580px
+  margin 100px 0 0 0
+.order-wrap
+  width 100%
+  height 580px
+  padding 55px 0 0 155px
+  background url(../images/order-bg.jpg) no-repeat center center
+  border-radius 3px
+.order-title
+  max-width 375px
+  font-size 30px
+  margin 0 0 30px 0
+.order-text
+  max-width 375px
+  margin 0 0 50px 0
+.order-form
+  width 340px
+  padding 35px
+  background #f0f0f0
+  border-radius 3px
+  input
+    margin 0 0 10px 0
+  input,button
+    width 100%
+    padding 14px 22px
+.order-form-btn
+  font-size 14px
+  font-weight bold
+  margin 20px 0 0 0
+.social-sharing
+  padding 35px 0 45px 0
+  text-align center
+.social-sharing-title
+  margin 0 0 12px 0
+.brands
+  padding 35px 0
+  border-top 5px #ebebeb solid
+  border-bottom 5px #ebebeb solid
+  height 154px
+.brands-wrap
+  list-style none
+  margin 0
+  padding 0
+  width 100%
+  text-align justify
+  li
+    display inline-block
+    vertical-align middle
+  &:after
+    content ''
+    display inline-block
+    margin-left 100%
+  img
+    max-height 73px
+.topcalc
+  margin 40px 0 0 0
+.topcalc-item
+  position relative
+  display block
+  width 100%
+  padding 19px 35px
+  text-decoration none
+  color #333
+  border 2px #ccc solid
+.topcalc-item-img
+  position absolute
+  top 0
+  left 0
+  z-index 2
+.topcalc-item-title
+  position relative
+  z-index 3
+  display block
+  font-size 14px
+  text-transform uppercase
+  font-weight 600
+  margin 0 0 5px 0
+  span
+    display block
+    font-size 20px
+    font-weight bold
+.topcalc-item-btn
+  position relative
+  z-index 3
+  font-size 10px
+  padding 0 12px
+.page h1
+  padding 5px 0 9px
+  color #64a104
+  font-weight 600
+  text-transform uppercase
+  border 6px solid #f5f5f5
+.page .blocktitle
+  font-size 24px
+  color #64a104
+  font-weight bold
+  text-transform uppercase
+ul.breadcrumbs
+  list-style none
+  margin 0 0 38px 0
+  padding 0
+  font-size 14px
+  line-height 18px
+  color #ababab
+  li
+    float left
+    &:after
+      content '»'
+      display inline-block
+      margin 0 10px
+    &:last-child:after
+      content ''
+.audioreview
+  padding 15px
+  margin-bottom 15px
+  line-height 20px
+  width 100%
+  float left
+  background #eee
+  color #000
+  border-radius 5px
+.audioreview-date
+  font-size 75%
+.audioreview audio
+  width 100%
+  margin 10px 0 0 0
+.glazing-promo
+  width 100%
+  height 498px
+  position relative
+  overflow hidden
+  margin-bottom 70px
+  &:before
+    content ''
+    display block
+    width 843px
+    height 478px
+    position absolute
+    z-index 2
+    left 10px
+    top 10px
+    border 1px rgba(255,255,255,0.5) solid
+    border-radius 2px
+.glazing-promo-img
+  position relative
+  z-index 1
+.glazing-promo-wrap
+  position absolute
+  left 60px
+  top 110px
+  z-index 2
+  background rgba(255,255,255,0.8)
+  width 480px
+  padding 40px
+.glazing-promo-title
+  margin 0 0 20px 0
+  font-size 30px
+  line-height 33px
+  font-weight bold
+  color #2f2d18
+.glazing-promo-text
+  margin 0 0 20px 0
+  strong
+    font-size 18px
+    line-height 23px
+    text-transform uppercase
+.glazing-promo-gift
+  position absolute
+  z-index 3
+  right -30px
+  bottom -30px
+  width 145px
+  height 145px
+  background url(../images/balcony-gift-big.png) no-repeat
+.glazing-biggreen
+  display block
+  width 100%
+  font-size 26px
+  line-height 29px
+  color #34a834
+.glazing-special
+  font-size 24px
+.glazing-list
+  margin 45px 50px 35px
+  line-height 19px
+.type
+  width 100%
+  float left
+  margin 0 0 35px 0
+.type-content-discount
+  width 97px
+  height 97px
+  float left
+  position absolute
+.type-tabs-wrap
+  width 100%
+  float left
+  background #f9f9f9
+.type-tabs
+  margin 0
+  padding 0
+  width 100%
+  list-style none
+  display table
+  border-collapse collapse
+  border-top 4px #e2e2e2 solid
+  li
+    cursor pointer
+    display table-cell
+    position relative
+    padding 18px 10px
+    text-align center
+    border-left 1px #e2e2e2 solid
+    border-right 1px #e2e2e2 solid
+    color #808080
+    font-weight bold
+    text-transform uppercase
+    &.first,&:first-child
+      border-left-color transparent
+    &.last,&:last-child
+      border-right-color transparent
+    &:hover
+      color #79a300
+    &.current
+      border-left-color transparent
+      border-right-color transparent
+      color #3bb8ea
+      background rgb(228, 249, 252)
+      background -moz-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+      background -webkit-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+      background -o-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+      background -ms-linear-gradient(90deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+      background linear-gradient(180deg, rgb(228, 249, 252) 0%, rgb(249, 249, 249) 100%)
+      &:before
+        content ''
+        display block
+        position absolute
+        top -4px
+        left 0
+        width 100%
+        height 4px
+        background #3bb8ea
+      &:after
+        content ''
+        width 0
+        height 0
+        position absolute
+        top 0
+        left 50%
+        margin-left -6px
+        border-left 6px solid transparent
+        border-right 6px solid transparent
+        border-top 6px solid #3bb8ea
+    &.afterCurrent
+      border-left-color transparent
+    &.beforeCurrent
+      border-right-color transparent
+.type-tabs-content
+  width 100%
+  float left
+  padding 20px
+  margin 20px
+.type-content-item
+  display none
+.type-content-item:first-child
+  display block
+.type-content-imgwrap
+  width 368px
+  float left
+  text-align center
+.type-content-img
+  max-height 285px
+  border 10px solid
+  border-radius 10px
+  border-color transparent
+.type-content-text
+  float right
+  width 400px
+.type-content-title
+  font-size 16px
+  line-height 19px
+  font-weight 600
+  margin 0 0 25px 20px
+.type-content-list
+  list-style none
+  margin 0 0 20px 0
+  padding 0
+  font-size 15px
+  line-height 19px
+  li
+    padding 0 0 0 36px
+    min-height 21px
+    margin 10px 0
+    background url(../images/windows-li-blue.png) no-repeat left top
+  strong
+    color #000
+    font-weight 600
+.type-content-link
+  display inline-block
+  font-size 14px
+  color #4c4c4c
+  margin 0 0 20px 36px
+  padding-bottom 15px
+.type-content-price
+  margin 30px 0 0 0
+  font-size 16px
+  text-align center
+  color #000
+.type-kupon-img
+  float left
+  position absolute
+.type-kupon-text
+  float left
+  position relative
+  margin 25px 0 0 85px
+.c-table td.green
+  color #8cc34b
+.gform
+  background url(../images/content/check-bg.jpg) no-repeat
+  width 100%
+  height 605px
+.gform h2
+  color #fff
+  text-align center
+  text-transform uppercase
+.windows-promo
+  width 100%
+  height 498px
+  position relative
+  overflow hidden
+  margin-bottom 70px
+  &:before
+    content ''
+    display block
+    width 843px
+    height 478px
+    position absolute
+    z-index 2
+    left 10px
+    top 10px
+    border 1px rgba(255,255,255,0.5) solid
+    border-radius 2px
+.windows-promo-img
+  position relative
+  z-index 1
+.windows-promo-wrap
+  position absolute
+  left 60px
+  top 110px
+  z-index 2
+  background rgba(255,255,255,0.8)
+  width 480px
+  padding 40px
+.windows-promo-title
+  margin 0 0 20px 0
+  font-size 30px
+  line-height 33px
+  font-weight bold
+  color #2f2d18
+.windows-promo-text
+  margin 0 0 20px 0
+  strong
+    font-size 18px
+    line-height 23px
+    text-transform uppercase
+.footer
+  width 100%
+  margin -440px auto 0
+  height 440px
+  padding 35px 0
+  float left
+  background url(../images/footer-bg.jpg)
+  position relative
+  overflow hidden
+  font-size 14px
+  line-height 17px
+  font-weight 600
+  color #666
+  a
+    color #4ac54a
+.googlePlus
+  display block
+  margin 4px 0 0 0
+  line-height 16px
+  text-decoration none
+  img
+    margin-right 4px
+    vertical-align middle
+    float left
+.foot-col
+  float left
+  width 20%
+  padding 0 2% 0 0
+.foot-col.num5
+  width 16%
+.foot-col.withborder
+  border-right 1px #ccc solid
+  width 22%
+  margin 0 2% 0 0
+.footblock
+  margin 0 0 30px 0
+  .menu
+    font-size 12px
+    li
+      margin 3px 0
+      a
+        display block
+        position relative
+        padding 0 0 0 12px
+        color #666
+        &:after
+          content ''
+          display block
+          position absolute
+          left 0
+          top 7px
+          width 6px
+          height 6px
+          background #64a105
+.footblock-title
+  text-transform uppercase
+  font-weight bold
+  margin 0 0 15px 0
+.foot-adr
+  margin 0 0 10px 0
+.all-adr
+  display inline-block
+  margin 18px 0 0 0
+.foot-workhours
+  color #a6a6a6
+.social
+  ul
+    margin 0
+    padding 0
+    list-style none
+    li
+      float left
+      a
+        display block
+        text-indent -9999px
+        text-decoration none
+        width 32px
+        height 32px
+        margin 0 5px 0 0
+        background-size 185px 32px
+        &.vk
+          background url(../images/social.png) left center
+          background-size 185px 32px
+        &.fb
+          background url(../images/social.png) -37px center
+          background-size 185px 32px
+        &.goo
+          background url(../images/social.png) -76px center
+          background-size 185px 32px
+        &.pp
+          background url(../images/social.png) -115px center
+          background-size 185px 32px
+        &.insta
+          background url(../images/social.png) right center
+          background-size 185px 32px
+        &:hover
+          opacity 0.6
+.payments-link
+  display inline-block
+  margin 20px 0 0 0
