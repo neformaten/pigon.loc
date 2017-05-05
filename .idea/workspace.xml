@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72cec67d-358a-4e51-b35e-ef3ae7480361" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/slideshow.jade" afterPath="$PROJECT_DIR$/blocks/slideshow.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action.html" afterPath="$PROJECT_DIR$/action.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/header.jade" afterPath="$PROJECT_DIR$/blocks/header.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/headmenu.jade" afterPath="$PROJECT_DIR$/blocks/headmenu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-menu.html" afterPath="$PROJECT_DIR$/index-menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="pigon.loc.iws" />
@@ -40,7 +42,17 @@
         <entry file="file://$PROJECT_DIR$/index-menu.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="241" column="111" selection-start-line="241" selection-start-column="111" selection-end-line="241" selection-end-column="111" />
+              <caret line="65" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -50,7 +62,7 @@
         <entry file="file://C:/sofosbuvir-html/index.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="79" selection-start-line="43" selection-start-column="36" selection-end-line="51" selection-end-column="79" />
+              <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="180" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -76,11 +88,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slideshow.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="headmenu.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks/headmenu.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slideshow.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blocks/slideshow.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6974359">
+            <state vertical-scroll-proportion="0.0">
               <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blocks/header.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46495727">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -101,11 +133,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blocks/header.jade" />
         <option value="$PROJECT_DIR$/blocks/top-menu.jade" />
         <option value="$PROJECT_DIR$/blocks/topmenu.jade" />
         <option value="$PROJECT_DIR$/blocks/top-products.jade" />
-        <option value="$PROJECT_DIR$/blocks/headmenu.jade" />
         <option value="$PROJECT_DIR$/index.jade" />
         <option value="$PROJECT_DIR$/blocks/footmenu.jade" />
         <option value="$PROJECT_DIR$/blocks/footer.jade" />
@@ -114,6 +144,9 @@
         <option value="$PROJECT_DIR$/garants.jade" />
         <option value="$PROJECT_DIR$/index-menu.jade" />
         <option value="$PROJECT_DIR$/blocks/slideshow.jade" />
+        <option value="$PROJECT_DIR$/search.jade" />
+        <option value="$PROJECT_DIR$/blocks/headmenu.jade" />
+        <option value="$PROJECT_DIR$/blocks/header.jade" />
       </list>
     </option>
   </component>
@@ -291,7 +324,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -541,14 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/headmenu.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/jade/lib/parser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7754569">
@@ -588,26 +613,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/header.jade">
+    <entry file="file://$PROJECT_DIR$/garants.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5521368">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="134" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade">
+    <entry file="file://$PROJECT_DIR$/blocks/slideshow.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/sofosbuvir-html/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="79" selection-start-line="43" selection-start-column="36" selection-end-line="51" selection-end-column="79" />
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -620,10 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/garants.jade">
+    <entry file="file://C:/sofosbuvir-html/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="134" selection-end-column="111" />
+          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="180" selection-end-column="125" />
           <folding />
         </state>
       </provider>
@@ -631,15 +648,39 @@
     <entry file="file://$PROJECT_DIR$/index-menu.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="241" column="111" selection-start-line="241" selection-start-column="111" selection-end-line="241" selection-end-column="111" />
+          <caret line="65" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/slideshow.jade">
+    <entry file="file://$PROJECT_DIR$/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6974359">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/headmenu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46495727">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
       </provider>
