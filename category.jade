@@ -1,0 +1,271 @@
+doctype html
+html(lang='ru')
+    head
+        title Пижон
+        include blocks/head/meta-and-link
+        include blocks/header
+    body
+        .wrapper
+            include blocks/topmenu
+            .main.block
+                .container
+                    .row
+                        img.img-responsive(src='images/content/category-banner1.jpg', alt='')
+                    .row
+                        ul.breadcrumbs.block
+                            li
+                                a(href='#') Главная
+                            li
+                                span Куртки
+                    .row
+                        .col-lg-12
+                            h2 Куртки
+                            p В нашем интернет-магазине Pizhon.ru вы можете по привлекательной цене приобрести мужские и женские куртки. Для них характерно высокое качество, стильный покрой и практичность. Они не только прослужат своим хозяевам длительное время, но и будут их радовать своим комфортом и привлекательным внешним видом.
+                    .row
+                        .col-lg-3
+                            .menu-block
+                                .menu-title Категории
+                                ul.category
+                                    li
+                                        a(href='#') Новинки
+                                    li
+                                        a(href='#') Очки
+                                    li
+                                        a(href='#') Футболки
+                                    li
+                                        a(href='#') Аксуссуары
+                                    li
+                                        a(href='#') Сумки
+                                    li
+                                        a(href='#') Обувь
+                                    li
+                                        a(href='#') Кофты
+                                    li
+                                        a(href='#') Куртки
+                                    li
+                                        a(href='#') Нижнее белье
+                                    li
+                                        a(href='#') Платья
+                                    li
+                                        a(href='#') Разное
+                                    li
+                                        a(href='#') Распродажа
+                            .menu-block
+                                .menu-title Цена
+                                ul.category
+                                    li
+                                        a(href='#') 535
+                                    li
+                                        a(href='#') 2500
+                                input(type='text' placeholder='от' name='price-form' value='' pattern='' required)
+                                input(type='text' placeholder='до' name='price-form' value='' pattern='' required)
+                            .menu-block
+                                .menu-title Модификация
+                                ul.category
+                                   li Кожаные (4)
+                                       input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                   li Жилетки (3)
+                                       input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                   li Зимние (12)
+                                       input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                   li Ветровки (9)
+                                       input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                            .menu-block
+                                .menu-title Пол
+                                ul.category
+                                    li Мужские (27)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Женские (5)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                            .menu-block
+                                .menu-title Производитель
+                                ul.category
+                                    li Мужские (27)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Addict (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Napapijri (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Canada Goose (7)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Superdry (2)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li THE NORTH FACE (3)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Dsquared (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Nike (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Fred Perry (3)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Extreme Emperial (2)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Dolce Gabanna (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Hermes (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Fred Perry (2)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Division Apparel (2)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Bogner (2)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                    li Lacoste (1)
+                                        input.mod(type='checkbox' name='mod' placeholder='1' value='')
+                                a.menu-block(href='#') Сбросить
+                    .products
+                        .col-lg-9
+                            .col-lg-4
+                                .news-item
+                                    a.news-item-link(href='#' title='Часы Daniel Wellington')
+                                        img.news-item-img.img-responsive(src='images/content/new-items/item-1.jpg' alt='Часы Daniel Wellington')
+                                    .news-item-textWrap
+                                        a.news-item-title(href='#' title='Часы Daniel Wellington') Часы Daniel Wellington
+                                        .news-item-description Часы
+                                        .news-item-price 999 руб.
+                                        button.news-item-btn(type='button' name='newitems-item-btn'  value='cart/add') Купить
+                            .col-lg-4
+                                .news-item
+                                    a.news-item-link(href='#' title='Рюкзак Gucci')
+                                        img.news-item-img.img-responsive(src='images/content/new-items/item-2.jpg' alt='Рюкзак Gucci')
+                                    .news-item-textWrap
+                                        a.news-item-title(href='#' title='Рюкзак Gucci') Рюкзак Gucci
+                                        .news-item-description Рюкзаки
+                                        .news-item-price 6199 руб.
+                                        button.news-item-btn(type='button' name='newitems-item-btn'  value='cart/add') Купить
+                            .col-lg-4
+                                .news-item
+                                    a.news-item-link(href='#' title='Сумка Michael Kors')
+                                        img.news-item-img.img-responsive(src='images/content/new-items/item-3.jpg' alt='Сумка Michael Kors')
+                                    .news-item-textWrap
+                                        a.news-item-title(href='#' title='Сумка Michael Kors') Сумка Michael Kors
+                                        .news-item-description Сумки
+                                        .news-item-price 5900 руб.
+                                        button.news-item-btn(type='button' name='newitems-item-btn'  value='cart/add') Купить
+                            .col-lg-4
+                                .weeks-item
+                                    a.weeks-item-link(href='#' title='Рюкзак Gucci')
+                                        img.weeks-item-img.img-responsive(src='images/content/week-items/item2.jpg' alt='Рюкзак Gucci')
+                                    .weeks-item-textWrap
+                                        a.weeks-item-title(href='#' title='Рюкзак Gucci') Рюкзак Gucci
+                                        .weeks-item-description Рюкзаки
+                                        .weeks-item-price 6199 руб.
+                                        button.weeks-item-btn(type='button' name='newitems-item-btn'  value='cart/add') Купить
+                            .col-lg-4
+                                .weeks-item
+                                    a.weeks-item-link(href='#' title='Сумка Michael Kors')
+                                        img.weeks-item-img.img-responsive(src='images/content/week-items/item3.jpg' alt='Сумка Michael Kors')
+                                    .weeks-item-textWrap
+                                        a.weeks-item-title(href='#' title='Сумка Michael Kors') Сумка Michael Kors
+                                        .weeks-item-description Сумки
+                                        .weeks-item-price 5900 руб.
+                                        button.weeks-item-btn(type='button' name='newitems-item-btn'  value='cart/add') Купить
+                            .col-lg-4
+                                .weeks-item
+                                    a.weeks-item-link(href='#' title='Сумка Michael Kors')
+                                        img.weeks-item-img.img-responsive(src='images/content/week-items/item4.jpg' alt='Сумка Michael Kors')
+                                    .weeks-item-textWrap
+                                        a.weeks-item-title(href='#' title='Сумка Michael Kors') Сумка Michael Kors
+                                        .weeks-item-description Сумки
+                                        .weeks-item-price 5900 руб.
+                                        button.weeks-item-btn(type='button' name='newitems-item-btn'  value='cart/add') Купить
+                    .products-info
+                        .products-info-title Интернет-магазин «Пижон» – модная одежда и аксессуары!
+                        .products-info-text Интернет-магазин "Пижон" рад предложить вам постоянно обновляющийся огромный ассортимент модной одежды и аксессуаров от ведущих мировых производителей. Наш большой выбор доставит настоящее удовольствие ценителям качественных и элегантных модных изделий, а также поможет грамотно сформировать имидж успешного, не лишенного вкуса, человека, который стремится к совершенству во всех мелочах.<br> Покупать брендовые вещи в нашем магазине очень удобно и выгодно. Продуманная навигация сайта дает возможность посетителю максимально быстро находить необходимые товары, стоимость которых порадует каждого своей демократичностью и доступностью. К тому же, оформить заказ в нашем интернет-магазине в Санкт-Петербурге можно в абсолютно любое время суток, даже не выходя из своего дома. Интернет-магазин "Пижон" предлагает богатый выбор модной продукции.
+        footmenu.footmenu.block
+            .container
+                .foot-col.num1
+                    .footblock
+                        .footblock-title Меню
+                        ul.menu
+                            li
+                                a(href='#' title='Преимущества') Преимущества
+                            li
+                                a(href='#' title='Гарантии') Гарантии
+                            li
+                                a(href='#' title='Возврат') Возврат
+                            li
+                                a(href='#' title='Отзывы') Отзывы
+                            li
+                                a(href='#' title='Акции') Акции
+                            li
+                                a(href='#' title='Статьи') Статьи
+                            li
+                                a(href='#' title='Оплата и доставка') Оплата и доставка
+                            li
+                                a(href='#' title='Контакты') Контакты
+                            li
+                                a(href='#' title='Вакансии') Вакансии
+                            li
+                                a(href='#' title='Оптовым покупателям') Оптовым покупателям
+                        .footblock.copyright
+                            | © 2016 Pizhon Все права защищены
+                .foot-col.num2
+                    .footblock
+                        .footblock-title Категории
+                        ul.menu
+                            li
+                                a(href='#' title='Новинки') Новинки
+                            li
+                                a(href='#' title='Распродажа') Распродажа
+                            li
+                                a(href='#' title='Куртки') Куртки
+                            li
+                                a(href='#' title='Кофты') Кофты
+                            li
+                                a(href='#' title='Аксессуары') Аксессуары
+                            li
+                                a(href='#' title='Нижнее белье') Нижнее белье
+                            li
+                                a(href='#' title='Футболки') Футболки
+                            li
+                                a(href='#' title='Сумки') Сумки
+                            li
+                                a(href='#' title='Очки') Очки
+                            li
+                                a(href='#' title='Спецпредложения') Спецпредложения
+
+                .foot-col.num3
+                    .footblock
+                        a.footblock-map(href='#' title='Карта сайта') Карта сайта
+                        .foot-phones 8 (812) 988-90-07
+                        a.foot-email(href='mailto:support@pizhon.ru' title='Напишите нам') support@pizhon.ru
+                        .foot-adr Санкт-Петербург, Литейный Пр. 61
+                    .footblock
+                        .social
+                            ul
+                                li
+                                    a.fb(target='_blank' href='https://www.facebook.com/#' title='Facebook') Facebook
+                                li
+                                    a.vk(target='_blank' href='https://vk.com/#' title='Вконтакте') Вконтакте
+                                li
+                                    a.inst(target='_blank' href='https://www.instagram.com/#' title='Instagram') Instagram
+                                li
+                                    a.ok(target='_blank' href='https://ok.ru/#' title='OK') OK
+                    .footblock
+                        .payment
+                            ul
+                                li
+                                    a.nal(target='_blank' href='#' title='Наличные курьером') Наличные курьером
+                                li
+                                    a.ym(target='_blank' href='#' title='Яндекс Деньги') Яндекс Деньги
+                                li
+                                    a.wma(target='_blank' href='#' title='WebMoney') Аттестован WebMoney
+                                li
+                                    a.wm(target='_blank' href='#' title='Мы принимаем WebMoney') Мы принимаем WebMoney
+                                li
+                                    a.mc(target='_blank' href='#' title='MasterCard') MasterCard
+                                li
+                                    a.ems(target='_blank' href='#' title='EMS Почта России') EMS Почта России
+                                li
+                                    a.qiwi(target='_blank' href='#' title='Qiwi Кошелек') Qiwi Кошелек
+                                li
+                                    a.mail(target='_blank' href='#' title='Почта России') Почта России
+                .foot-col.num4
+                    .footblock
+                        .club-title Вступив в клуб Пижон Вы будете получать информацию о нас. Для членов клуба дополнительные скидки.
+                        button.btn.club-form-btn(type='submit' name='club-btn' value='sending') Вступить в клуб
+        include blocks/footer
+        script(src='js/jquery-3.1.1.min.js' defer)
+        script(src='js/slick.min.js' defer)
+        script(src='js/template.js' defer)

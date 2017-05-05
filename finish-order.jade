@@ -1,0 +1,122 @@
+doctype html
+html(lang='ru')
+    head
+        title Пижон
+        include blocks/head/meta-and-link
+        include blocks/header
+    body
+        .wrapper
+            include blocks/topmenu
+            .main.block
+                .container
+                    main.page
+                        .buy
+                            .col-lg-6
+                                img.buy-img.img-responsive(src='images/content/buy.png' alt='')
+                            .col-lg-6
+                                .buy-title Спасибо за покупку
+                                .buy-num Номер заказа: 53949
+                                .buy-sum Сумма заказа: 450 руб.
+                                .buy-delivery Сумма доставки: мы рассчитаем стоимость доставки до Вашего города и сообщим Вам по телефону
+                                .buy-status Посмотреть статус всех Ваших заказов Вы можете в «Мои заказы»
+                                .buy-summary Итого: 450 руб.
+                                .buy-pay Наличными
+                        .manager
+                            .manager-text Наш менеджер свяжется с Вами в ближайшее время для уточнения деталей оплаты и доставки заказа
+        footmenu.footmenu.block
+            .container
+                .foot-col.num1
+                    .footblock
+                        .footblock-title Меню
+                        ul.menu
+                            li
+                                a(href='#' title='Преимущества') Преимущества
+                            li
+                                a(href='#' title='Гарантии') Гарантии
+                            li
+                                a(href='#' title='Возврат') Возврат
+                            li
+                                a(href='#' title='Отзывы') Отзывы
+                            li
+                                a(href='#' title='Акции') Акции
+                            li
+                                a(href='#' title='Статьи') Статьи
+                            li
+                                a(href='#' title='Оплата и доставка') Оплата и доставка
+                            li
+                                a(href='#' title='Контакты') Контакты
+                            li
+                                a(href='#' title='Вакансии') Вакансии
+                            li
+                                a(href='#' title='Оптовым покупателям') Оптовым покупателям
+                        .footblock.copyright
+                            | © 2016 Pizhon Все права защищены
+                .foot-col.num2
+                    .footblock
+                        .footblock-title Категории
+                        ul.menu
+                            li
+                                a(href='#' title='Новинки') Новинки
+                            li
+                                a(href='#' title='Распродажа') Распродажа
+                            li
+                                a(href='#' title='Куртки') Куртки
+                            li
+                                a(href='#' title='Кофты') Кофты
+                            li
+                                a(href='#' title='Аксессуары') Аксессуары
+                            li
+                                a(href='#' title='Нижнее белье') Нижнее белье
+                            li
+                                a(href='#' title='Футболки') Футболки
+                            li
+                                a(href='#' title='Сумки') Сумки
+                            li
+                                a(href='#' title='Очки') Очки
+                            li
+                                a(href='#' title='Спецпредложения') Спецпредложения
+
+                .foot-col.num3
+                    .footblock
+                        a.footblock-map(href='#' title='Карта сайта') Карта сайта
+                        .foot-phones 8 (812) 988-90-07
+                        a.foot-email(href='mailto:support@pizhon.ru' title='Напишите нам') support@pizhon.ru
+                        .foot-adr Санкт-Петербург, Литейный Пр. 61
+                    .footblock
+                        .social
+                            ul
+                                li
+                                    a.fb(target='_blank' href='https://www.facebook.com/#' title='Facebook') Facebook
+                                li
+                                    a.vk(target='_blank' href='https://vk.com/#' title='Вконтакте') Вконтакте
+                                li
+                                    a.inst(target='_blank' href='https://www.instagram.com/#' title='Instagram') Instagram
+                                li
+                                    a.ok(target='_blank' href='https://ok.ru/#' title='OK') OK
+                    .footblock
+                        .payment
+                            ul
+                                li
+                                    a.nal(target='_blank' href='#' title='Наличные курьером') Наличные курьером
+                                li
+                                    a.ym(target='_blank' href='#' title='Яндекс Деньги') Яндекс Деньги
+                                li
+                                    a.wma(target='_blank' href='#' title='WebMoney') Аттестован WebMoney
+                                li
+                                    a.wm(target='_blank' href='#' title='Мы принимаем WebMoney') Мы принимаем WebMoney
+                                li
+                                    a.mc(target='_blank' href='#' title='MasterCard') MasterCard
+                                li
+                                    a.ems(target='_blank' href='#' title='EMS Почта России') EMS Почта России
+                                li
+                                    a.qiwi(target='_blank' href='#' title='Qiwi Кошелек') Qiwi Кошелек
+                                li
+                                    a.mail(target='_blank' href='#' title='Почта России') Почта России
+                .foot-col.num4
+                    .footblock
+                        .club-title Вступив в клуб Пижон Вы будете получать информацию о нас. Для членов клуба дополнительные скидки.
+                        button.btn.club-form-btn(type='submit' name='club-btn' value='sending') Вступить в клуб
+        include blocks/footer
+        script(src='js/jquery-3.1.1.min.js' defer)
+        script(src='js/slick.min.js' defer)
+        script(src='js/template.js' defer)
